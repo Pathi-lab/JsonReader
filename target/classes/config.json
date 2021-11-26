@@ -1,0 +1,43 @@
+{
+    "projectname": "OMAN-CREDIT-BUREAU",
+    "Serivce_ID": 53789,
+    "emailAddress": "pathi.anang@noexternalmail.com;paul.david.dowden@hsbc.com",
+    "desiredPatchLevel": "latest",
+    "crNumber": "CR1234578",
+    "isThisProdEnv": "flase",
+    "apiRequester": 45202017,
+    "BatchSize": 1,
+    "stageLabelsToRun": "preCheckSanity",
+    "dryRun": "flase",
+    "nodeLabel": "cm-linux",
+    "globalLibraryBranch": "itid-library@newAnsibleTower",
+    "Environment": [
+      {
+        "Development": [
+          {
+            "hostname": "gbl2012345",
+            "ihs": "DWSCOB0M1UK-WS,UWSCOB0M1UK-WS",
+            "wlp": "DASCOBOM1UK, UASCOBOM1UK"
+          }
+        ]
+      },
+      {
+        "prod": [
+          {
+            "hostname": "gbl2012346",
+            "ihs": "DWSCOB0M3UK-WS,UWSCOB0M3UK-WS",
+            "wlp": "DASCOBOM3UK, UASCOBOM3UK"
+          }
+        ]
+      },
+      {
+        "SIT": [
+          {
+            "hostname": "gbl2012347",
+            "ihs": "DWSCOB0M2UK-WS,UWSCOB0M2UK-WS",
+            "wlp": "DASCOBOM2UK, UASCOBOM2UK"
+          }
+        ]
+      }
+    ]
+  }
